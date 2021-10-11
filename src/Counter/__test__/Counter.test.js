@@ -11,7 +11,7 @@ beforeEach(() => {
 	getByTestId = component.getByTestId;
 });
 
-test('Heade renders with correct text', () => {
+test('Header renders with correct text', () => {
 	//? Primera forma de hacer esto sin destructuracion
 	// const component = render(<Counter />);
 	// const headerEl = component.getByTestId('header');
